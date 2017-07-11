@@ -9,8 +9,7 @@ public class Solution {
     public static void main(String[] args) {
         Solution solution = new Solution();
 //        Scanner in = new Scanner(new InputStreamReader(System.in));
-        Scanner in = new Scanner("9 5\n" +
-                "2 3 4 2 3 6 8 4 5");
+        Scanner in = new Scanner("9 5\n2 3 4 2 3 6 8 4 5");
         solution.init(in);
     }
     public void init(Scanner sc) {
